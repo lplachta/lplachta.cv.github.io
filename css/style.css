@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 22px;
+    position: relative;
+}
+
+.brand-logo {
+    padding-left: 1% !important;
+}
+
+/*Nav*/
+nav {
+    background-color: #6495ED !important;
+}
+/*End Nav*/
+
+.banner {
+    width: 100%;
+    background-color: #EAEAEA;
+    height: auto;
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.banner h1 {
+    font-size: 250%;
+}
+
+/*Personal*/
+.personal {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.personal h2 {
+    font-size: 130%;
+    font-weight: 700;
+}
+
+.personal p {
+    color: #848484;
+    font-weight: 700;
+    font-size: 90%;
+}
+
+.personal img {
+    width: 70%;
+}
+/*End Personal*/
+
+.pad {
+    margin-top: 5%;
+}
+/*About*/
+.about h2 {
+    text-align: center;
+    font-size: 130%;
+    font-weight: 700;
+}
+#about .banner {
+    width: 100%;
+    background-color: #6495ED;
+    height: auto;
+    padding: 5%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+/*End About*/
+/*Work*/
+.work h2 {
+    text-align: center;
+    font-size: 130%;
+    font-weight: 700;
+}
+.work img {
+    width: 70%;
+}
+#sparta {
+    position: relative;
+    padding-bottom: 1%;
+}
+#cineworld {
+    position: relative;
+    padding-bottom: 1%;
+}
+#waitrose {
+    position: relative;
+    padding-bottom: 1%;
+}
+#newsquest {
+    position: relative;
+    padding-bottom: 1%;
+}
+#ibm {
+    position: relative;
+    padding-bottom: 1%;
+}
+#wgeco {
+    position: relative;
+    padding-bottom: 1%;
+}
+/*End Work*/
+/*Education*/
+.education h2 {
+    text-align: center;
+    font-size: 130%;
+    font-weight: 700;
+}
+.education img {
+    width: 70%;
+}
+#uwe {
+    position: relative;
+    padding-bottom: 1%;
+}
+#staffs {
+    position: relative;
+    padding-bottom: 1%;    
+}
+#uxbridge {
+    position: relative;
+    padding-bottom: 1%;
+}
+#northwood {
+    position: relative;
+    padding-bottom: 1%;    
+}
+#newnham {
+    position: relative;
+    padding-bottom: 1%;    
+}
+#linkedin img {
+    position: relative;
+    padding-top: 2%;
+    left: -10%; 
+}
+#github img {
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+}
+#stack img {
+    position: relative;
+    padding-top: 2%;
+    left: 10%;
+    width: 50%;
+    height: auto;
+}
+#form {
+    position: relative;
+    padding-top: 5%;
+    left: 10%;
+}
+#message {
+    position: relative;
+    left: 12%;
+    width: 110%;
+}
+#button {
+    position: relative;
+    width: 20%;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 1200px) {
+    .banner {
+        top: 7%;
+    }
+
+    .banner h1 {
+        font-size: 170%;
+    }
+}  
+
+
+@media only screen and (max-width: 780px) {
+    .banner {
+        top: 7%;
+    }
+
+    .banner h1 {
+        font-size: 150%;
+    }
+}  
+
+@media only screen and (max-width: 580px) {
+    .banner {
+        top: 7%;
+    }
+
+    .banner h1 {
+        font-size: 90%;
+    }
+}   
