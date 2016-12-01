@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Luke Plachta | Web Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Luke is a web developer currently undergoing the Web Developer course at Sparta Global">
+        <meta name="author" content="Luke Plachta">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="css/materialize.css">
+        <link rel="stylesheet" href="css/materialIcons.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animations.css">
+    </head>
+    <body>
+        <!--Nav-->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Luke Plachta</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="materialIcons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#personal">Personal</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#s&c">Social and Contact</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo"> <!--The Nav Bar will shrink to a pull down box when the screen falls down to mobile size-->
+                    <li><a href="#personal">Personal</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#s&c">Social and Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--End Nav-->
+        <!--Banner-->
+        <section class="banner">
+            <div class="animatedParent"> <!--Parent class of the animation-->
+            <div class="animated bounceIn"> <!--The Child class of the animation, with this one the animated part will just bounce but not move anywhere-->
+            <h1><pre>let developer = "Luke Plachta";</pre></h1>
+            </div>
+            </div>
+        </section>
+        <!--End Banner-->
+        <!--Profile-->
+        <section id="personal" class="personal">
+            <div class="container">
+                <div class="animatedParent">
+                <div class="animated bounceInDown"> <!--With this type of animation, the animated part will bounce in from the down, this will be the same with all bounceInDown-->
+                <h2>Luke Plachta</h2>               <!--animations-->
+                <p>Luke is a talented web developer currently working for Sparta Global</p>
+                </div>
+                </div>
+                <div class="row pad">
+                    <div class="animatedParent">
+                    <div class="col l4 m12 s12 animated bounceInLeft"> <!--With this type of animation, the animated part will bounce in from the left, this will be the same with-->
+                        <img src="img/profilePicture.jpg">             <!--all bounceInLeft animations-->
+                    </div>
+                    </div>
+                    <div class="animatedParent">
+                    <div class="col l8 m12 s12 animated bounceInRight"> <!-- This type of animation will do the oppposite of bounceinLeft and every other animation set to -->
+                        <p>                                             <!--bounceInRight will do the same-->
+                            <ul>
+                                <li>Contact phone number: 07847327028</li>
+                                <li>Contact email address: luke.plachta@googlemail.com</li>
+                                <li>Current home address: 23 North View, Eastcote, Pinner, Middlesex, HA5 1PQ</li>
+                            </ul>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Profile-->
+        <!--About-->
+        <section id="about" class="banner"> <!--Entire div will be placed inside a banner which will have a different background colour to the main page background colour -->
+            <div class="about">
+                <div class="container">
+                    <div class="animatedParent">
+                        <div class="animated bounceInDown">
+                            <h2>About</h2> <!--Section headings done in Heading 2-->
+                        </div>
+                    </div>
+                    <div class="row pad">
+                        <div class="animatedParent">
+                            <div class="col l6 m12 s12 animated bounceInLeft">  
+                                <p>I am a 26 year old graduate from the University of the West of England in Bristol. I graduated with a third
+                                class degree in BSc Hons Computing in November 2015. I am currently a Web Development trainee at Sparta Global
+                                hoping to pursue a career in Web Development. So far on the course I have learned about the command line and
+                                have gained experience using GIT and Bash, the programming languages so far I have learned are HTML, CSS, Javascript
+                                and jQuery.</p>
+                            </div>     
+                        </div>
+                        <div class="animatedParent">
+                            <div class="col l6 m12 s12 animated bounceInRight">
+                                <p>In my spare time I am working on building an HTML website about TV series I have watched over the last couple
+                                of years and as I go through this course I am applying the skills I have learned to improve the websites quality,
+                                professionalism, accessibility and usability. I also enjoy rock climbing and go to bouldering centres around London.
+                                I have taken part in one competition at one of the centres. I also hold a fan id for premiership teams in both rugby
+                                and football. I also enjoy stand up comedy and go to stand up shows as and when I can also depending on the availability.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of About-->
+        <!--Work-->
+        <section id="work" class="work">
+            <div class="container">
+                <div class="animatedParent">
+                    <div class="animated bounceInLeft">
+                        <h2>Work</h2>
+                    </div>
+                </div>
+                <div class="row pad">
+                    <div class="animatedParent">
+                        <div class="col l4 m12 s12 animated fadeInLeft"> <!--This type of content will bounce in from the left but will be in a faded format, the fade will go-->
+                            <img src="img/sparta.png">                   <!--when the animated section reaches where it needs to be-->
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div id="sparta" class="col l8 m12 s12 animated fadeInRight"><!--This type of content will bounce in from the left but will be in a faded format, the-->
+                            <p>                                                      <!--fade will go when the animated section reaches where it needs to be-->
+                                <ul>
+                                    <li>Position: Trainee Web Development consultant</li>
+                                    <li>Location: Richmond</li>
+                                    <li>Start Date: November 2016</li>
+                                    <li>End Date: Present</li>
+                                    <li>Duties: Learning the necessary programming languages and technologies to become a full 
+                                    stack web developer. Programming languages and technologies so far covered are HTML, CSS, Javascript, jQuery,
+                                    Bash and GIT.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pad">
+                    <div class="animatedParent">
+                        <div class="col l4 m12 s12 animated bounceInLeft">
+                            <img src="img/cineworld.jpg">
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div id="cineworld"class="col l8 m12 s12 animated bounceInRight">
+                            <p>
+                                <ul>
+                                    <li>Position: Team Member</li>
+                                    <li>Locations: Solihull, High Wycombe, Shaftesbury Avenue, Bristol, Haymarket</li>
+                                    <li>Start Date: March 2010</li>
+                                    <li>End Date: Present</li>
+                                    <li>Duties: Selling tickets and food to customers, checking customers tickets at the gate, cleaning screens and
+                                    keeping paperwork up to date. Part time job whilst at University, full and part time job whilst back home</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pad">
+                    <div class="animatedParent">
+                        <div class="col l4 m12 s12 animated fadeInLeft">
+                            <img src="img/waitrose.jpg">
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div id="waitrose" class="col l8 m12 s12 animated fadeInRight">
+                            <p>
+                                <ul>
+                                    <li>Position: Fresh Food shelf stacker</li>
+                                    <li>Location: Bloomsbury</li>
+                                    <li>Start Date: April 2009</li>
+                                    <li>End Date: September 2009</li>
+                                    <li>Duties: Part time job as a fresh food shelf stacker but did also assist on checkouts when required</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pad">
+                    <div class="animatedParent">
+                        <div class="col l4 m12 s12 animated bounceInLeft">
+                            <img src="img/newsquest.jpg">
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div id="newsquest" class="col l8 m12 s12 animated bounceInRight">
+                            <p>
+                                <ul>
+                                    <li>Position: Delivery Agent</li>
+                                    <li><strong>Start Date:</strong> May 2005</li>
+                                    <li><strong>End Date:</strong> May 2009</li>
+                                    <li><strong>Duties:</strong> One day a week delivering newspapers and leaflets to local addresses</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pad">
+                    <div class="animatedParent">
+                        <div class="col l4 m12 s12 animated fadeInLeft">
+                            <img src="img/ibm.jpg">
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div id="ibm" class="col l8 m12 s12 animated fadeInRight">
+                            <p>
+                                <ul>
+                                    <li><strong>Position:</strong> Work experience</li>
+                                    <li><strong>Location:</strong> Southbank</li>
+                                    <li><strong>Start Date:</strong> May 2005</li>
+                                    <li><strong>End Date:</strong> May 2005</li>
+                                    <li><strong>Duties:</strong> One week work experience in a Business Continuity site in central London
+                                    installing Windows 2000 onto desktop PC-s and completing network connections. This work experience also
+                                    included training on the site's disaster recovery methods</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pad">
+                    <div class="animatedParent">
+                        <div class="col l4 m12 s12 animated bounceInLeft">
+                            <img src="img/wgeco.jpg">
+                        </div>
+                    </div>
+                    <div class="animatedParent">
+                        <div id="wgeco" class="col l8 m12 s12 animated bounceInRight">
+                            <p>
+                                <ul>
+                                    <li><strong>Position:</strong> Work experience</li>
+                                    <li><strong>Location:</strong> Southbank</li>
+                                    <li><strong>Start Date:</strong> May 2005</li>
+                                    <li><strong>End Date:</strong> May 2005</li>
+                                    <li><strong>Duties:</strong> 1 week work experience in a large scientific data processing centre, my
+                                    responsibilities were data entry, manual tape handling and UNIX computer installation.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Work-->
+        <!--Education-->
+        <section>
+            <section id="education" class="education">
+                <div class="container">
+                    <div class="animatedParent">
+                        <div class="animated bounceInRight">
+                            <h2>Education</h2>
+                        </div>
+                    </div>
+                    <div class="row pad">
+                        <div class="animatedParent">
+                            <div class="col l4 m12 s12 animated fadeInLeft">
+                                <img src="img/uwe.jpg">
+                            </div>
+                        </div>
+                        <div class="animatedParent">
+                            <div id="uwe" class="col l8 m12 s12 animated fadeInRight">
+                                <p>
+                                    <ul>
+                                        <li><strong>Course:</strong> BSc Hons Computing</li>
+                                        <li><strong>Final grade:</strong> Third class</li>
+                                        <li><strong>Start Date:</strong> September 2011</li>
+                                        <li><strong>Graduated:</strong> November 2015</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pad">
+                        <div class="animatedParent">
+                            <div class="col l4 m12 s12 animated bounceInLeft">
+                                <img src="img/staffs.jpg">
+                            </div>
+                        </div>
+                        <div class="animatedParent">
+                            <div id="staffs" class="col l8 m12 s12 animated bounceInRight">
+                                <p>
+                                    <ul>
+                                        <li><strong>Course:</strong> Web Development</li>
+                                        <li><strong>Start Date:</strong> September 2009</li>
+                                        <li><strong>Graduated:</strong> Dropped out in May 2010</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pad">
+                        <div class="animatedParent">
+                            <div class="col l4 m12 s12 animated fadeInLeft">
+                                <img src="img/uc.jpg">
+                            </div>
+                        </div>
+                        <div class="animatedParent">
+                            <div id="uxbridge" class="col l8 m12 s12 animated fadeInRight">
+                                <p>
+                                    <ul>
+                                        <li><strong>Course:</strong> BTEC National Diploma - IT Systems Support</li>
+                                        <li><strong>Final grade:</strong> Merit Merit Pass</li>
+                                        <li><strong>Start Date:</strong> September 2007</li>
+                                        <li><strong>Graduated:</strong> May 2009</li>
+                                        <br>
+                                        <li><strong>Course:</strong> BTEC First Diploma - IT</li>
+                                        <li><strong>Final grade:</strong> Merit</li>
+                                        <li><strong>Other qualifications gained:</strong> Key Skills - IT and English Communications</li>
+                                        <li><strong>Start Date:</strong> September 2006</li>
+                                        <li><strong>Graduated:</strong> May 2007</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pad">
+                        <div class="animatedParent">
+                            <div class="col l4 m12 s12 animated bounceInLeft">
+                                <img src="img/nss.jpg">
+                            </div>
+                        </div>
+                        <div class="animatedParent">
+                            <div id="northwood" class="col l8 m12 s12 animated bounceInRight">
+                                <p>
+                                    <ul>
+                                        <li><strong>School:</strong> Northwood Secondary School</li>
+                                        <li><strong>GCSEs passed:</strong> Maths and Religious Education</li>
+                                        <li><strong>Grades:</strong> C for both</li>
+                                        <li><strong>Start Date:</strong> September 2001</li>
+                                        <li><strong>Graduated:</strong> August 2006</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pad">
+                        <div class="animatedParent">
+                            <div class="col l4 m12 s12 animated fadeInLeft">
+                                <img src="img/njs.jpg">
+                            </div>
+                        </div>
+                        <div class="animatedParent">
+                            <div id="newnham" class="col l8 m12 s12 animated fadeInRight">
+                                <p>
+                                    <ul>
+                                        <li><strong>School:</strong> Newnham Junior School</li>
+                                        <li><strong>Start Date:</strong> September 1994</li>
+                                        <li><strong>Graduated:</strong> July 2001</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!--End Education-->
+        <!--Social Media and Contact-->
+            <section id="s&c" class="banner">
+                <div class="socialAndContact">
+                    <div class="container">
+                        <div class="animatedParent">
+                            <div class="animated bounceInDown">
+                                <h2>Social Media and Contact Form</h2>
+                            </div>
+                        </div>
+                        <div class="row pad">
+                            <div class="animatedParent">
+                                <div class="col l5 m12 s12 animated bounceInLeft">
+                                    <p>Find me on social media pages such as Linkedin, Github and Stack Overflow</p>
+                                        <a id="linkedin" href="https://www.linkedin.com/in/luke-plachta-1aa0b5122?trk=nav
+                                        _responsive_tab_profile_pic"><img alt="Linkedin" src="img/linkedin.jpg"></a>
+                                        <!--Relevant images used as image links to social media pages-->
+                                        <a id="github" href="https://github.com/lplachta/lplachta.github.io"><img 
+                                        alt="Github" src="img/github.jpg" height="64" width="64"></a>
+                                        <a id="stack" href="http://stackoverflow.com/users/7131319/luke-plachta">
+                                        <img alt="Stack Overflow" src="img/stackOverflow.jpg" height="64" width="140"></a>
+                                </div>
+                            </div>
+                            <!--End of social media links-->
+                            <!--Contact form-->
+                        <div class="animatedParent">
+                            <div class="col l6 m12 s12 animated bounceInRight">
+                                <div class="row">
+                                    <p>If you would like to contact me to discuss further please fill out the below contact
+                                    form and I will get back to you as soon as I can</p>
+                                    <form id="form" class="col s11">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <i class="material-icons prefix">account_circle</i>
+                                                <input id="icon_prefix" type="text" class="validate">
+                                                <label for="icon_prefix">Full Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <i class="material-icons prefix">phone</i>
+                                                <input id="icon_telephone" type="tel" class="validate">
+                                                <label for="icon_telephone">Contact phone number</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <i class="material-icons prefix">email</i>
+                                                <input id="icon_email" type="email" class="validate">
+                                                <label for="icon_email" data-error="wrong" data-success="right">Email</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <form class="col s12">
+                                                <div id="message" class="row">
+                                                    <div class="input-field col s10">
+                                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                                        <label for="textarea1">Textarea</label>
+                                                    </div>
+                                                </div>
+                                                <input id="button" type = "submit" value = "send"> 
+                                            </form>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!--End Social Media and Contact-->
+        <!--Scripts-->
+        <script src="js/jquery-3.1.1.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/css3-animate-it.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
